@@ -40,7 +40,7 @@ public class ReactiveProgramming {
 
         // 이제 Iterable 인터페이스를 구현하여 Lambda 식으로 Iterator 도구를 사용하여 순회하면서 원소를 1~5까지 순회하는 Object를 만들자
         Iterable<Integer> iterImplements = () ->
-                new Iterator<Integer>() { // 구현체이다
+                new Iterator<>() { // 구현체이다
                     int i = 0;
                     final static int MAX = 5;
 
