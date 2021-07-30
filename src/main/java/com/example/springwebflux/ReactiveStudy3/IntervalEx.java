@@ -63,7 +63,7 @@ public class IntervalEx {
                         /**
                          * 만약 count가 10을 넘어갔다 ? cancel을 사용해보자.
                          */
-                        subsc.cancel();z
+                        subsc.cancel();
                     }
                 }
 
